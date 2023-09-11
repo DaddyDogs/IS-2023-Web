@@ -1,0 +1,35 @@
+/*html {*/
+/*  & h2 {*/
+/*    text-align: center;*/
+/*    color: white;*/
+/*  }*/
+
+/*  & p {*/
+/*    text-align: center;*/
+/*    color: white;*/
+/*  }*/
+
+/*  & body {*/
+/*    background-image: url("https://i.pinimg.com/originals/e4/9f/ef/e49fef39db885f5eda4fc5d0ffb532c6.jpg");*/
+/*  }*/
+
+/*< / style >*/
+/*}*/
+.squat p, .bench p, .deadlift p{
+  text-align: center;
+}
+.squat, .bench, .deadlift{
+  max-width: 320px;
+}
+aside {
+  width: 70%;
+  padding-left: 0.5rem;
+  float: right;
+  box-shadow: inset 5px 0 5px -5px #c23ec9;
+  font-style: italic;
+  color: #c23ec9;
+}
+pre{
+  color: #c23ec9;
+}
+
