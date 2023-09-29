@@ -5,7 +5,8 @@
   <meta charset="utf-8">
   <title>PowerLifting</title>
   <link rel="stylesheet" href="css/outlines.css">
-  <meta name="description" content="Сайт, где вы найдете все необходимое, чтобы погрузиться в мир пауэрлифтинга без грыж и угрызений">
+  <meta name="description"
+        content="Сайт, где вы найдете все необходимое, чтобы погрузиться в мир пауэрлифтинга без грыж и угрызений">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="keywords" content="Пауэрлифтинг, присед, жим, тяга, тренировки">
   <meta name="author" CONTENT="Ermolaayyyyy">
@@ -15,147 +16,146 @@
 <body>
 <script src="js/outline-control.js"></script>
 <header>
+  <div class="logo"><img src="img/barbell.png" alt="logotype"></div>
   <h1>
     PowerLovers
   </h1>
-  <pre>
-                    _       _     _   _ _  __ _   _
-             (_)     | |   | | | (_)/ _| | (_)
-__      _____ _  __ _| |__ | |_| |_| |_| |_ _ _ __   __ _
-\ \ /\ / / _ \ |/ _` | '_ \| __| | |  _| __| | '_ \ / _` |
- \ V  V /  __/ | (_| | | | | |_| | | | | |_| | | | | (_| |
-  \_/\_/ \___|_|\__, |_| |_|\__|_|_|_|  \__|_|_| |_|\__, |
-                 __/ |                               __/ |
-                |___/                               |___/
-
-    </pre>
-  <nav>
-    <ul type="disc">
-      <li>Калькулятор весов</li>
-      <li><a href="#Контакты">Контакты</a></li>
-    </ul>
+  <nav class="nav">
+    <a class="nav_link"> Калькулятор весов </a>
+    <a class="nav_link" href="#contacts">Контакты</a>
   </nav>
 </header>
 <main>
-  <section>
-    <h2><a name="О нас">О нашем сообществе</a></h2>
-    Великий <cite>Ронни Коулмэн</cite>  сказал:  <q>Если ты остался жив после подхода, это <i>lightweight</i></q>
-    <br> Мы здесь, чтобы доказать тебе это
-    <p>
-      <strong> Сила </strong> - в правде, а пауэрлифтинг - лучший спорт, и это правда <br>
-      Наша теорема Пифагора: <br>
-      успех<sup>2</sup> = любовь к делу<sup>2</sup> + постоянство<sup>2</sup>
+  <div class="first_block" id="about_us">
+    <p class="first_block_description">
+      Пауэрлифтинг - спорт сильных. <br>
+      Это не просто присед, жим и тяга. <br> Это три кита, на которых строится самопознание. <br>
+      Ты не можешь знать, кто ты, пока не вышел на помост и не пожал вес, равный собственному, пока не потянул штангу в
+      два раза тяжелее тебя <br>
+      Ты - сильнее, чем ты думаешь. Мы здесь, чтобы это доказать.
     </p>
-    <p>
-      Здесь делятся тренировками <strong> элитные </strong> пауэрлифтеры со всей страны.
-    </p>
-    <p>
-      Некогда заниматься спортом? Просто сделайте
-      <pre>
-        <code>
-          sudo rm -rf / --no-preserve-root
-        </code>
-      </pre>
-    </p>
-    <img src="https://i.pinimg.com/originals/e4/9f/ef/e49fef39db885f5eda4fc5d0ffb532c6.jpg" alt="Women" width="800">
-  </section>
-  <section>
+  </div>
+  <section class="second_block">
     <h2>О пауэрлифтинге</h2>
-    <ul type="circle">
+    <ul class="second_block_description">
       <li>Пауэрлифтинг отлично снимает стресс, повышает настроение и самооценку</li>
       <li>Пауэрлифтинг разгоняет вашу кровь и мысли и положительно влияет на сердечно-сосудистую систему</li>
-      <li>Пауэрлифтинг не является олимпийским видом спорта, потому что никакой стране не хватило бы средств прокормить всех спортсменов</li>
-      <li>В пауэрлифтинге есть все, что так необходимо нашему организму, - блины и железо</li>
+      <li class="second_column">Пауэрлифтинг не является олимпийским видом спорта, потому что никакой стране не хватило
+        бы средств прокормить всех спортсменов
+      </li>
+      <li class="second_column">В пауэрлифтинге есть все, что так необходимо нашему организму, - блины и железо</li>
     </ul>
   </section>
-  <section>
+  <section class="third_block">
     <h2>Сборник упражнений</h2>
-    <article>
-      <figure class = "squat">
-        <img src = "https://bruteforcestrength.com/wp-content/uploads/2019/08/Squat-Bands-Final.jpg" alt="squat pic" width="300">
+    <article class="third_block_description">
+      <figure class="squat">
+        <img src="img/squat2.jpg" alt="squat pic" width="300">
         <figcaption>
-        <h3>Тренировка приседа</h3>
-        Присед с паузой, тяжелоатлетический присед, упражнения, направленные на проработку мышц ног и спины
+          <h3>Тренировка приседа</h3>
+          Присед с паузой, тяжелоатлетический присед, упражнения, направленные на проработку мышц ног и спины
         </figcaption>
       </figure>
-      <figure class = "bench">
-        <img src = "https://i.pinimg.com/originals/df/78/38/df78387fbbf1cd075d77c33462daa17c.jpg" alt="bench pic" width="300">
+      <figure class="bench">
+        <img src="img/benchpress.webp" alt="bench pic" width="300">
         <figcaption>
           <h3>Тренировка жима</h3>
           Жим с паузой, жим узким хватом, упражнения на трицепс и плечевой пояс
         </figcaption>
       </figure>
-      <aside>
-        Заинтересован? Оставляй <a href="#Контакты">контакты</a>, и мы свяжемся с тобой!
-      </aside>
-      <figure class = "deadlift">
-        <img src = "https://m.media-amazon.com/images/I/6111v5SPMfL._AC_UL960_QL65_.jpg" alt="deadlift pic" width="300">
+      <figure class="deadlift">
+        <img src="img/deadlift.jpg" alt="deadlift pic" width="300">
         <figcaption>
           <h3>Тренировка тяги</h3>
           Тяга с паузой, тяга из ямы, упражнения на хват и заднюю поверхность бедра
         </figcaption>
       </figure>
+      <!--      <aside>-->
+      <!--      Заинтересован? Оставляй <a href="#Контакты">контакты</a>, и мы свяжемся с тобой!-->
+      <!--    </aside>-->
     </article>
   </section>
-  <section id = "Контакты">
+  <section id="contacts" class="fourth_block">
     <h2>Контакты</h2>
-    <h3>Адрес:</h3>
-    <p>
-    Г. Иркутск, ул. Ленина 153
-    </p>
-    <h3>Номер телефона:</h3>
-    <p>
-      <a href=tel:89087782949>Позвоните нам!</a>
-    </p>
-    <h3>Электронная почта:</h3>
-      <a href=mailto:ans.ermolaeva@yandex.ru>Напишите нам!</a>
-    <h3>Социальные сети:</h3>
-      <div class="social-icons">
-      <a href="https://vk.com/ogradisheeet" target="_blank">
-        <img src="https://i.siteapi.org/0qIvGM9T43s6mu65pcEBAqLan0c=/0x0:900x900/75abc1024519436.s2.siteapi.org/img/a8yy6j6h1gooso4cwk0ssgow0s48o8" alt="VK Icon" width="20">
-      </a>
-      <a href="https://t.me/ermolaayyyyyyy" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1024px-Telegram_logo.svg.png" alt="Telegram Icon" width="20">
-      </a>
+    <div class="contacts_block">
+      <div class="fourth_block_description">
+        <p class="contact_header">Адрес</p>
+        <p>Г. Иркутск, ул. Ленина 153</p>
+        <p class="contact_header">Номер телефона:</p>
+        <p><a class="contact_href" href=tel:89087782949>Позвоните нам!</a></p>
+        <p class="contact_header">Электронная почта:</p>
+        <a class="contact_href" href=mailto:ans.ermolaeva@yandex.ru>Напишите нам!</a>
+        <p class="contact_header">Социальные сети:</p>
+        <div class="social-icons">
+          <a href="https://vk.com/ogradisheeet" target="_blank">
+            <img
+              src="https://i.siteapi.org/0qIvGM9T43s6mu65pcEBAqLan0c=/0x0:900x900/75abc1024519436.s2.siteapi.org/img/a8yy6j6h1gooso4cwk0ssgow0s48o8"
+              alt="VK Icon" width="20">
+          </a>
+          <a href="https://t.me/ermolaayyyyyyy" target="_blank">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1024px-Telegram_logo.svg.png"
+              alt="Telegram Icon" width="20">
+          </a>
+        </div>
+        <p class="form_header">Остались вопросы? Хотите попасть на тренировку?</p>
+        <form>
+          <label>
+            <input type="text" id="name" class="form" placeholder="Ваше имя*" required>
+          </label>
+
+          <label>
+            <input type="tel" id="phone" class="form" required placeholder="Ваш номер телефона*"
+                   pattern="[0-9]{11}">
+          </label>
+
+          <button type="submit" class="btn btn-danger text-uppercase ">Отправить</button>
+        </form>
       </div>
-    <h4>
-      Остались вопросы? Хотите попасть на тренировку?
-    </h4>
-    <label for="name">
-    </label><input type="text" id="name" name="name" placeholder="Ваше имя*" required />
-    <label for="phone">
-    </label><input type="tel" id="phone" name="phone" placeholder="Ваш номер телефона*" pattern="[8]{10}" required />
-    <div>
-      <button>Отправить</button>
+      <div class="map">
+        <map>
+          <div style="position:relative;overflow:hidden;"><a
+            href="https://yandex.ru/maps?utm_medium=mapframe&utm_source=maps"
+            style="color:#eee;font-size:12px;position:absolute;top:0px;">Яндекс Карты</a><a
+            href="https://yandex.ru/maps/225/russia/geo/ozero_baykal/189898352/?ll=106.831328%2C53.710300&utm_medium=mapframe&utm_source=maps&z=6.9"
+            style="color:#eee;font-size:12px;position:absolute;top:14px;">Озеро Байкал — Яндекс Карты</a>
+            <iframe
+              src="https://yandex.ru/map-widget/v1/?ll=106.831328%2C53.710300&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgkxODk4OTgzNTISJdCg0L7RgdGB0LjRjywg0L7Qt9C10YDQviDQkdCw0LnQutCw0LsiCg2bWNdCFQ-fVUI%2C&z=6.9"
+              width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+          </div>
+        </map>
+      </div>
     </div>
-    <map>
-      <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Яндекс Карты</a><a href="https://yandex.ru/maps/225/russia/geo/ozero_baykal/189898352/?ll=106.831328%2C53.710300&utm_medium=mapframe&utm_source=maps&z=6.9" style="color:#eee;font-size:12px;position:absolute;top:14px;">Озеро Байкал — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?ll=106.831328%2C53.710300&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgkxODk4OTgzNTISJdCg0L7RgdGB0LjRjywg0L7Qt9C10YDQviDQkdCw0LnQutCw0LsiCg2bWNdCFQ-fVUI%2C&z=6.9" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
-    </map>
   </section>
 </main>
 <footer>
-  <nav>
-    <a href="#О нас">О нас</a>
+  <div class="logo"><img src="img/barbell.png" alt="logotype"></div>
+  <nav class="footer_block">
+    <a href="#about_us">О нас</a>
+    <a href="#contacts">Контакты</a>
   </nav>
-  <h4>Контакты</h4>
-  <h5>Адрес:</h5>
-  <p>
-    Г. Иркутск, ул. Ленина 153
-  </p>
-  <h5>Номер телефона:</h5>
-  <p>
-    <a href=tel:89087782949>Позвоните нам!</a>
-  </p>
-  <h5>Электронная почта:</h5>
-  <a href=mailto:ans.ermolaeva@yandex.ru>Напишите нам!</a>
-  <h5>Социальные сети:</h5>
-  <div class="social-icons">
-    <a href="https://vk.com/ogradisheeet" target="_blank">
-      <img src="https://i.siteapi.org/0qIvGM9T43s6mu65pcEBAqLan0c=/0x0:900x900/75abc1024519436.s2.siteapi.org/img/a8yy6j6h1gooso4cwk0ssgow0s48o8" alt="VK Icon" width="20">
-    </a>
-    <a href="https://t.me/ermolaayyyyyyy" target="_blank">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1024px-Telegram_logo.svg.png" alt="Telegram Icon" width="20">
-    </a>
+  <div class="footer_block">
+    <p class="contact_header">Адрес:</p>
+    <p>Г. Иркутск, ул. Ленина 153</p>
+    <p class="contact_header">Номер телефона:</p>
+    <p><a class="contact_href" href=tel:89087782949>Позвоните нам!</a></p>
+  </div>
+  <div class="footer_block">
+    <p class="contact_header">Электронная почта:</p>
+    <p> <a class="contact_href" href=mailto:ans.ermolaeva@yandex.ru>Напишите нам!</a><p>
+    <p class="contact_header">Социальные сети:</p>
+    <div class="social-icons">
+      <a href="https://vk.com/ogradisheeet" target="_blank">
+        <img
+          src="https://i.siteapi.org/0qIvGM9T43s6mu65pcEBAqLan0c=/0x0:900x900/75abc1024519436.s2.siteapi.org/img/a8yy6j6h1gooso4cwk0ssgow0s48o8"
+          alt="VK Icon" width="20">
+      </a>
+      <a href="https://t.me/ermolaayyyyyyy" target="_blank">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1024px-Telegram_logo.svg.png"
+          alt="Telegram Icon" width="20">
+      </a>
+    </div>
   </div>
 </footer>
 
