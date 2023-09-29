@@ -1,26 +1,214 @@
-/*html {*/
-/*  & h2 {*/
-/*    text-align: center;*/
-/*    color: white;*/
-/*  }*/
+*{
+  font-family: "Fira Code", serif;
+  font-size: medium;
+  background-color: floralwhite;
+  background-attachment: fixed;
+  list-style-type: circle;
+}
 
-/*  & p {*/
-/*    text-align: center;*/
-/*    color: white;*/
-/*  }*/
+.logo > img {
+  background-color: #F9AFFB;
+  height: 85px;
+}
 
-/*  & body {*/
-/*    background-image: url("https://i.pinimg.com/originals/e4/9f/ef/e49fef39db885f5eda4fc5d0ffb532c6.jpg");*/
-/*  }*/
+.logo{
+  background-color: #F9AFFB;
+}
 
-/*< / style >*/
-/*}*/
-.squat p, .bench p, .deadlift p{
+h1{
+  background-color: #F9AFFB;
+  font-size: 30px;
+}
+header{
+  background-color: #F9AFFB;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+}
+
+header a{
+  color: white;
+}
+
+main{
+  max-width: 1440px;
+  margin: auto;
+}
+
+.nav {
+  background-color: #F9AFFB;
+  text-transform: uppercase;
+  display: flex;
+  #justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+}
+
+.nav_link{
+  background-color: #F9AFFB;
+  text-transform: uppercase;
+  vertical-align: top;
+  font-size: 12px;
+  margin: 10px;
+}
+
+.first_block{
+  margin: 4%;
+  height: 456px;
+  overflow: hidden;
+  border-radius: 40px;
+  background-size: 80%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url(../img/gym.jpg) center;
+}
+
+.first_block:hover{
+  box-shadow: 0px 10px 10px 10px #222222;
+}
+
+.first_block_description{
+  background-color: rgb(0, 0, 0, 0);
+  color: white;
+  font-size: 26px;
+  line-height: 34px;
+  padding: 10% 5%;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.second_block h2,ul,li{
+  background-color: #F9AFFB;
+}
+
+.second_block{
+  background-color: #F9AFFB;
+  padding: 5px;
+  color: white;
+  margin-bottom: 2%;
+  width: 100%;
+}
+
+h2{
+  font-size: 30px;
+  line-height: 38px;
+  text-align: center;
+  margin: 5px 0;
+}
+
+h3{
+  font-size: 20px;
+  line-height: 38px;
+  text-align: center;
+  margin: 5px 0;
+}
+
+h1, h2, h3{
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.second_block_description{
+  column-count: 2;
+  column-gap: 25%;
+}
+
+li{
+  padding: 3%;
+  margin-left: 5%;
+  /*width: 50%;*/
+  margin-inside: 25%;
+  font-size: 20px;
+  /*display: flex;*/
+  /*justify-content: space-between;*/
+}
+
+.third_block_description{
+  display: flex;
+  justify-content: space-evenly;
   text-align: center;
 }
-.squat, .bench, .deadlift{
+
+.third_block_description > figure{
   max-width: 320px;
 }
+
+figure img{
+  border-radius: 40px;
+  height: 75%;
+}
+
+figure img:hover{
+  box-shadow: 0px 5px 5px 5px #222222;
+}
+
+.contact_header{
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.form_header{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contacts_block{
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+  text-transform: uppercase;
+  gap: 5%;
+}
+
+.fourth_block_description p{
+  margin: 2px;
+}
+
+button{
+  width: 25%;
+  padding: 2% 0;
+  border-radius: 4px;
+}
+
+button:hover{
+  background: #F9AFFB;
+  cursor: pointer;
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+}
+
+input{
+  border: 1px solid #3C3C3C;
+  text-align: center;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  margin: 1% 0;
+  width: 90%;
+}
+
+.social-icons{
+  display: flex;
+  width: 10%;
+  gap: 10px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  margin: -5px;
+}
+
 aside {
   width: 70%;
   padding-left: 0.5rem;
@@ -29,7 +217,54 @@ aside {
   font-style: italic;
   color: #c23ec9;
 }
-pre{
-  color: #c23ec9;
+
+.map > map > div{
+  border-radius: 40px;
 }
+
+.map > map > div:hover{
+  box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px);
+}
+
+footer{
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #F9AFFB;
+  gap: 5%;
+  padding: 1% 10%;
+}
+
+.footer_block
+{
+  color: white;
+  background: #F9AFFB;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-height: 120px;
+  text-transform: uppercase;
+}
+
+.footer_block > p{
+  background: #F9AFFB;
+  margin: 2px;
+}
+
+.footer_block a{
+  color: white;
+  background: #F9AFFB;
+}
+
+.footer_block .social-icons img{
+  padding: 2px;
+  background: #F9AFFB;
+}
+
+/*button{*/
+/*  margin-top: 10px;*/
+/*  margin-bottom: 10px;*/
+/*}*/
 
