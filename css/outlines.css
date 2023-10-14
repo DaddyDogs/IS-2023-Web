@@ -41,6 +41,17 @@ header{
     margin: 0 0 0 -20%;
     justify-content: space-around;
   }
+  h1{
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 560px) {
+  header{
+    margin: 0 1% 0 0;
+    padding: 0 5% 0 0;
+    justify-content:flex-start;
+  }
 }
 
 header a{
@@ -285,7 +296,6 @@ footer{
   background: #F9AFFB;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   text-transform: uppercase;
 }
 
@@ -302,6 +312,17 @@ footer{
 .footer_block .social-icons img{
   padding: 2px;
   background: #F9AFFB;
+}
+
+@media (max-width: 500px) {
+  .footer_block > p
+  {
+    font-size: 10px;
+  }
+  .contact_href
+  {
+    font-size: 10px;
+  }
 }
 
 .wrapper {
@@ -345,7 +366,12 @@ footer{
   padding: 10px;
 }
 
-
+@media (max-width: 560px) {
+  .wrapper div{
+    font-size: 10px;
+    padding: 0 0 0 0;
+  };
+}
 /*button{*/
 /*  margin-top: 10px;*/
 /*  margin-bottom: 10px;*/
