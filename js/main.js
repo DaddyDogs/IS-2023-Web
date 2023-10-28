@@ -1,9 +1,3 @@
-// window.onload = (function getLoadTime(){
-//   let loadTime = window.performance.getEntries()[0].duration;
-//   document.getElementById("load_time").innerText = loadTime.toString();
-//   return loadTime;
-// }());
-
 (function() {
   let startTime = performance.now();
   window.addEventListener('load', function() {
