@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Тренировки</title>
   <link rel="stylesheet" href="css/outlines.css">
+  <link rel="stylesheet" href="css/trainings.css">
   <script src="js/main.js"></script>
 </head>
 <body>
@@ -21,8 +22,30 @@
 <main>
   <div class="trainings_block">
     <h2>Тренировки</h2>
+    <form action="" method="post" id="trainings_form">
+      <div class=form_input_fields>
+        <label>
+          Количество тренировок:
+          <input id="trainings" type="number" name="trainings_count" value="3">
+        </label>
+        <label>
+          Количество упражнений:
+          <input id="exercises" type="number" name="exercises_count" value="5">
+        </label>
+        <div class="radio"><label for="default_values">Создать план</label><input type="checkbox" name="default_plan" id="default_values"></div>
+      </div>
+      <div class="form_buttons">
+        <button type="submit">Сгенерировать</button>
+        <button type="button">Сохранить</button>
+        <button type="button">Загрузить</button>
+      </div>
+    </form>
+    <div class="trainings_table">
+
+    </div>
   </div>
 </main>
+<script src="js/form-handler.js"></script>
 </body>
 <footer>
   <h2 id="load_time"></h2>
