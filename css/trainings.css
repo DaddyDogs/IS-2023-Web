@@ -1,0 +1,54 @@
+.trainings_block{
+  margin: 3%;
+  border-radius: 40px;
+}
+
+.dynamic_table{
+  margin: 2% auto auto;
+  border: 1px solid;
+  border-spacing: 10px;
+}
+
+.table_header{
+  border: 1px solid;
+  font-size: x-large;
+  padding: 10px;
+  background-color: #F9AFFB;
+}
+
+form{
+  margin: 2% auto auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_input_fields{
+  width: 200px;
+}
+
+.form_buttons{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 3px;
+}
+
+.form_buttons button{
+  width: 110%;
+}
+
+.radio input{
+  width: 20px;
+}
+
+.radio{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+input:hover{
+  background-color: #F9AFFB;
+}
