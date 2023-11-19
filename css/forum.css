@@ -1,0 +1,55 @@
+.preloader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.preloader img {
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  100% { transform: rotate(360deg); }
+}
+
+.forum_block{
+  margin: 3%;
+}
+
+.post{
+  background-color: #CB94E3;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  max-width: 300px;
+}
+
+
+.post p, h3{
+  background-color: #F9AFFB;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.posts{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.error{
+  margin-top: 3%;
+  padding: 50px;
+  border: solid red;
+  text-align: center;
+}
+
+.error p{
+  font-size: 30px;
+  color: red;
+  font-weight: bold;
+}
